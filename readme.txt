@@ -17,3 +17,5 @@ Git tracks changes of files.
 2017.5.25 push clone gitskills
 
 2017.5.26 Creating a new branch is quick.
+
+2017.5.27 Creating a new branch is quick & simple.
