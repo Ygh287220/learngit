@@ -7,7 +7,7 @@
 * 查看配置文件内容<br/>
 <pre><code>git config --list<br/></pre></code>
 * 初始化版本库<br/>
-<br/><pre><code>git init</pre></code>
+<pre><code>git init</pre></code>
 * 把文件放到 git 仓库<br/>
 <pre><code>git add<br/></pre></code>
 * 把文件提交到 git 仓库<br/>
