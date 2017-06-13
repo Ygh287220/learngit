@@ -1,6 +1,6 @@
 * 配置全局用户及邮箱<br/>
-  git config --global user.name "Your Name"<br/>
-  git config --global user.email "email@example.com"<br/>
+<pre><code>git config --global user.name "Your Name"<br/></pre></code>
+<pre><code> git config --global user.email "email@example.com"<br/></pre></code>
 配置当前仓库用户及邮箱<br/>
 git config user.name "Your Name"<br/>
 git config user.email "email@xx.com"<br/>
