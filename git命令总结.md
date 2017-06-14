@@ -85,3 +85,5 @@
 <pre><code> config --global alias.last 'log -1'<br/></pre></code>
 <pre><code> config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"<br/></pre></code>
 <pre><code> config --global core.quotepath false # 设置显示中文文件名<br/></pre></code>
+
+# -2017.6.15
