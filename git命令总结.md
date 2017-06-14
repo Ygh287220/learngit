@@ -53,35 +53,35 @@
 <pre><code>禁止使用 fast forward merge 方式<br/></pre></code>
 <pre><code>git merge --no-ff -m "xxx"  <branch name><br/></pre></code>
 * 隐藏现场及回复现场<br/>
-git stash #保存现场<br/>
-git stash pop #恢复现场<br/>
+<pre><code>git stash #保存现场<br/></pre></code>
+<pre><code>git stash pop #恢复现场<br/></pre></code>
 * 强制删除未合并分支<br/>
-git branch -D <branch name><br/>
+<pre><code>git branch -D <branch name><br/></pre></code>
 * 多人协作<br/>
-git remote #查看远程库信息<br/>
-git remote -v #查看远程库信息详细<br/>
-git push origin master #推送本地 master 分支<br/>
-git checkout -b dev origin/dev #创建本地 dev 并关联远程 dev 分支<br/>
-git branch --set-upstream branch-name origin/branch-name #建立本地分支与远程分支得关联<br/>
-git pull #抓取远程分支<br/>
+<pre><code>git remote #查看远程库信息<br/></pre></code>
+<pre><code>git remote -v #查看远程库信息详细<br/></pre></code>
+<pre><code>git push origin master #推送本地 master 分支<br/></pre></code>
+<pre><code>git checkout -b dev origin/dev #创建本地 dev 并关联远程 dev 分支<br/></pre></code>
+<pre><code>git branch --set-upstream branch-name origin/branch-name #建立本地分支与远程分支得关联<br/></pre></code>
+<pre><code>git pull #抓取远程分支<br/></pre></code>
 * 创建标签<br/>
-git tag <name>  #创建标签<br/>
-git tag #查看所有标签<br/>
-git tag v0.9 6224937 #对某一次 commit 打标签<br/>
-git show <tagname> #查看标签信息<br/>
-git tag -a v0.1 -m "version 0.1 released" 3628164 #创建有说明的标签<br/>
+<pre><code>git tag <name>  #创建标签<br/></pre></code>
+<pre><code>git tag #查看所有标签<br/></pre></code>
+<pre><code>git tag v0.9 6224937 #对某一次 commit 打标签<br/></pre></code>
+<pre><code>git show <tagname> #查看标签信息<br/></pre></code>
+<pre><code>git tag -a v0.1 -m "version 0.1 released" 3628164 #创建有说明的标签<br/></pre></code>
 * 操作标签<br/>
-git tag -d v0.1 #删除标签<br/>
-git push origin <tagname> #推送标签到远程<br/>
-git push origin --tags #推送本地所有未推送到远程的标签<br/>
-git push origin :refs/tags/<tagname> #删除远程标签<br/>
+<pre><code>git tag -d v0.1 #删除标签<br/></pre></code>
+<pre><code>git push origin <tagname> #推送标签到远程<br/></pre></code>
+<pre><code>git push origin --tags #推送本地所有未推送到远程的标签<br/></pre></code>
+<pre><code>git push origin :refs/tags/<tagname> #删除远程标签<br/></pre></code>
 * 自定义git<br/>
-git config --global color.ui true #配置颜色开启<br/>
-git config --global alias.st status<br/>
-git config --global alias.co checkout<br/>
-git config --global alias.ci commit<br/>
-git config --global alias.br branch<br/>
-git config --global alias.unstage 'reset HEAD'<br/>
-git config --global alias.last 'log -1'<br/>
-git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"<br/>
-git config --global core.quotepath false # 设置显示中文文件名<br/>
+<pre><code> config --global color.ui true #配置颜色开启<br/></pre></code>
+<pre><code> config --global alias.st status<br/></pre></code>
+<pre><code> config --global alias.co checkout<br/></pre></code>
+<pre><code> config --global alias.ci commit<br/></pre></code>
+<pre><code> config --global alias.br branch<br/></pre></code>
+<pre><code> config --global alias.unstage 'reset HEAD'<br/></pre></code>
+<pre><code> config --global alias.last 'log -1'<br/></pre></code>
+<pre><code> config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"<br/></pre></code>
+<pre><code> config --global core.quotepath false # 设置显示中文文件名<br/></pre></code>
